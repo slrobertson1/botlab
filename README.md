@@ -63,3 +63,9 @@ https://smarie.github.io/develop-behind-proxy/switching/#envswitcher
 
 Each Lesson contains documentation. Open each lesson to review the documentation, and then drill down into the individual microservices inside the intelligence directories.
 
+## Modified botengine Instructions
+
+I decompiled and modified the botengine to support downloading data from all devices at a location.
+You can download all data from all devices at a location for a given time period as follows:
+
+python2 botengine_slr.py --download_devices --location 580902 -u <your_username> -p <your_password>
